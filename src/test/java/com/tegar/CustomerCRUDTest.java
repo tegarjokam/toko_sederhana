@@ -17,6 +17,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(classes = { AppConfig.class })
@@ -40,12 +41,18 @@ public class CustomerCRUDTest {
         Date dateNow = new Date(new java.util.Date().getTime());
 
         Customer customer = new Customer();
-        customer.setNama("Abdi");
+        customer.setNama("Asep");
         customer.setJenisKelamin("L");
-        customer.setAlamat("Jln Ikan Belanak 2");
+        customer.setAlamat("Jln Ikan Hiu");
         customer.setCreated_time(dateNow);
 
         int rekam = customerDao.create(customer);
         assertEquals(1, rekam);
+    }
+
+    @Test
+    public void test2_FindAll() {
+        List<Customer> customers = customerDao.findAll();
+        assertNotNull(customers);
     }
 }
