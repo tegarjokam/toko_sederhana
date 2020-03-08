@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1a92f427-7c98-4e21-b15d-93cf39e94cdf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tegar/dao/CustomerDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tegar/dao/CustomerDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/tegar/CustomerCRUDTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/tegar/CustomerCRUDTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +46,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.folding" />
   </component>
-  <component name="RunManager" selected="JUnit.CustomerCRUDTest.test2_FindAll">
+  <component name="RunManager" selected="JUnit.CustomerCRUDTest.test3_Update">
     <configuration name="CustomerCRUDTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="toko-sederhana" />
       <extension name="coverage">
@@ -94,8 +94,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CustomerCRUDTest.test3_Update" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="toko-sederhana" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tegar.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tegar" />
+      <option name="MAIN_CLASS_NAME" value="com.tegar.CustomerCRUDTest" />
+      <option name="METHOD_NAME" value="test3_Update" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CustomerCRUDTest.test3_Update" />
         <item itemvalue="JUnit.CustomerCRUDTest.test2_FindAll" />
         <item itemvalue="JUnit.CustomerCRUDTest" />
         <item itemvalue="JUnit.CustomerCRUDTest.test1_Create" />
@@ -120,22 +137,22 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="533" y="141" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1583654648934" />
-    <state width="1398" height="303" key="GridCell.Tab.0.bottom" timestamp="1583666227649">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1583666501230">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1583666227649" />
-    <state width="1398" height="303" key="GridCell.Tab.0.center" timestamp="1583666227648">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1583666501230" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1583666501229">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1583666227648" />
-    <state width="1398" height="303" key="GridCell.Tab.0.left" timestamp="1583666227646">
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1583666501229" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1583666501228">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1583666227646" />
-    <state width="1398" height="303" key="GridCell.Tab.0.right" timestamp="1583666227649">
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1583666501228" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1583666501229">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1583666227649" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1583666501229" />
     <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1583666227653">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

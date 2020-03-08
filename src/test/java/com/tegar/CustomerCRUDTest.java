@@ -43,7 +43,7 @@ public class CustomerCRUDTest {
         Customer customer = new Customer();
         customer.setNama("Asep");
         customer.setJenisKelamin("L");
-        customer.setAlamat("Jln Ikan Hiu");
+        customer.setAlamat("Jln Ikan Paus");
         customer.setCreated_time(dateNow);
 
         int rekam = customerDao.create(customer);
@@ -54,5 +54,12 @@ public class CustomerCRUDTest {
     public void test2_FindAll() {
         List<Customer> customers = customerDao.findAll();
         assertNotNull(customers);
+    }
+
+    @Test
+    public void test3_Update() {
+        customer.setNama("Tono");
+        int record = customerDao.update(customer);
+        assertEquals(1, customer);
     }
 }
