@@ -1,5 +1,6 @@
 package com.tegar.dao;
 
+import com.tegar.mapper.CustomerMapper;
 import com.tegar.pojo.Customer;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
@@ -31,6 +32,6 @@ public class CustomerDaoImpl implements CustomerDao {
 
     @Override
     public List<Customer> findAll() {
-        return null;
+        return jdbcTemplate.query("SELECT id, nama, jenis_kelamin, alamat, created_time FROM public.customer", new CustomerMapper());
     }
 }

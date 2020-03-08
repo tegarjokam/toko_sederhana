@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1a92f427-7c98-4e21-b15d-93cf39e94cdf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/tegar/CustomerCRUDTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/tegar/CustomerCRUDTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/tegar/CustomerCRUDTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/tegar/CustomerCRUDTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tegar/dao/CustomerDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tegar/dao/CustomerDaoImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +46,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.folding" />
   </component>
-  <component name="RunManager" selected="JUnit.CustomerCRUDTest">
+  <component name="RunManager" selected="JUnit.CustomerCRUDTest.test2_FindAll">
     <configuration name="CustomerCRUDTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="toko-sederhana" />
       <extension name="coverage">
@@ -97,8 +96,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CustomerCRUDTest" />
         <item itemvalue="JUnit.CustomerCRUDTest.test2_FindAll" />
+        <item itemvalue="JUnit.CustomerCRUDTest" />
         <item itemvalue="JUnit.CustomerCRUDTest.test1_Create" />
       </list>
     </recent_temporary>
