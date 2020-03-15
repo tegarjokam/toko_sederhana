@@ -63,4 +63,10 @@ public class CustomerCRUDTest {
         System.out.println(record);
         assertEquals(1, record);
     }
+
+    @Test
+    public void test4_Delete() {
+        int record = customerDao.delete(customer);
+        assertEquals(1, record);
+    }
 }
