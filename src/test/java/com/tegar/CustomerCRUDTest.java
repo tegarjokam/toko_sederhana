@@ -16,8 +16,7 @@ import java.sql.Date;
 import java.util.ArrayList;
 import java.util.List;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.*;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(classes = { AppConfig.class })
@@ -58,7 +57,7 @@ public class CustomerCRUDTest {
     @Test
     public void test3_Update() {
         customer.setNama("Tono");
-        customer.setId(32);
+        customer.setId(33);
         int record = customerDao.update(customer);
         System.out.println(record);
         assertEquals(1, record);

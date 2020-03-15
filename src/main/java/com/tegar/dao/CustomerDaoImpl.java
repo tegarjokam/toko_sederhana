@@ -28,7 +28,7 @@ public class CustomerDaoImpl implements CustomerDao {
 
     @Override
     public int delete(Customer objectType) {
-        return 0;
+        return jdbcTemplate.update("DELETE FROM public.customer WHERE id = ?", objectType.getId());
     }
 
     @Override
