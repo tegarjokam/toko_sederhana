@@ -40,7 +40,6 @@ public class CustomerCRUDTest {
     public void test1_Create() {
         Date dateNow = new Date(new java.util.Date().getTime());
 
-        Customer customer = new Customer();
         customer.setNama("Asep");
         customer.setJenisKelamin("L");
         customer.setAlamat("Jln Ikan Paus");
@@ -59,7 +58,9 @@ public class CustomerCRUDTest {
     @Test
     public void test3_Update() {
         customer.setNama("Tono");
+        customer.setId(32);
         int record = customerDao.update(customer);
-        assertEquals(1, customer);
+        System.out.println(record);
+        assertEquals(1, record);
     }
 }

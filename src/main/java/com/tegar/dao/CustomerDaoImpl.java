@@ -22,7 +22,8 @@ public class CustomerDaoImpl implements CustomerDao {
 
     @Override
     public int update(Customer objectType) {
-        return 0;
+        return jdbcTemplate.update("UPDATE public.customer SET nama = ?, jenis_kelamin = ?, alamat = ? WHERE id = ?",
+                objectType.getNama(), objectType.getJenisKelamin(), objectType.getAlamat(), objectType.getId());
     }
 
     @Override

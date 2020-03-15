@@ -51,4 +51,15 @@ public class Customer {
     public void setCreated_time(Date created_time) {
         this.created_time = created_time;
     }
+
+    @Override
+    public String toString() {
+        return "Customer{" +
+                "id=" + id +
+                ", nama='" + nama + '\'' +
+                ", jenisKelamin='" + jenisKelamin + '\'' +
+                ", alamat='" + alamat + '\'' +
+                ", created_time=" + created_time +
+                '}';
+    }
 }

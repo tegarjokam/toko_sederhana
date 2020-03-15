@@ -3,7 +3,19 @@
   <component name="ChangeListManager">
     <list default="true" id="1a92f427-7c98-4e21-b15d-93cf39e94cdf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tegar/dao/CustomerDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tegar/dao/CustomerDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tegar/pojo/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tegar/pojo/Customer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/tegar/CustomerCRUDTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/tegar/CustomerCRUDTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tegar/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tegar/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tegar/config/AppConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tegar/config/AppConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tegar/config/DatabaseConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tegar/config/DatabaseConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tegar/dao/CustomerDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tegar/dao/CustomerDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tegar/dao/CustomerDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tegar/dao/CustomerDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tegar/dao/DaoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tegar/dao/DaoService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tegar/mapper/CustomerMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tegar/mapper/CustomerMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tegar/pojo/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tegar/pojo/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/tegar/CustomerCRUDTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/tegar/CustomerCRUDTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,12 +53,13 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.folding" />
   </component>
-  <component name="RunManager" selected="JUnit.CustomerCRUDTest.test3_Update">
+  <component name="RunManager" selected="JUnit.CustomerCRUDTest">
     <configuration name="CustomerCRUDTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="toko-sederhana" />
       <extension name="coverage">
@@ -112,9 +125,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CustomerCRUDTest" />
         <item itemvalue="JUnit.CustomerCRUDTest.test3_Update" />
         <item itemvalue="JUnit.CustomerCRUDTest.test2_FindAll" />
-        <item itemvalue="JUnit.CustomerCRUDTest" />
         <item itemvalue="JUnit.CustomerCRUDTest.test1_Create" />
       </list>
     </recent_temporary>
@@ -132,42 +145,68 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="READ Customer with test2_FindAll (Green)" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="533" y="141" key="#com.intellij.ide.util.MemberChooser" timestamp="1583654648934">
+    <state x="320" y="115" width="811" height="669" key="#Project_Structure" timestamp="1583667911935">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="533" y="141" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1583654648934" />
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1583666501230">
+    <state x="320" y="115" width="811" height="669" key="#Project_Structure/0.0.1440.900@0.0.1440.900" timestamp="1583667911935" />
+    <state x="533" y="141" key="#com.intellij.ide.util.MemberChooser" timestamp="1583667381843">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1583666501230" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1583666501229">
+    <state x="533" y="141" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1583667381843" />
+    <state x="545" y="363" key="GitRewordDialog" timestamp="1584248523781">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1583666501229" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1583666501228">
+    <state x="545" y="363" key="GitRewordDialog/0.0.1440.900@0.0.1440.900" timestamp="1584248523781" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1584248444784">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1583666501228" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1583666501229">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1584248444784" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1584248444782">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1583666501229" />
-    <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1583666227653">
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1584248444782" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1584248444781">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1583666227653" />
-    <state width="1398" height="303" key="GridCell.Tab.1.center" timestamp="1583666227652">
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1584248444781" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1584248444783">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1583666227652" />
-    <state width="1398" height="303" key="GridCell.Tab.1.left" timestamp="1583666227651">
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1584248444783" />
+    <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1583745013284">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1583666227651" />
-    <state width="1398" height="303" key="GridCell.Tab.1.right" timestamp="1583666227652">
+    <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1583745013284" />
+    <state width="1398" height="303" key="GridCell.Tab.1.center" timestamp="1583745013283">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1583666227652" />
+    <state width="1398" height="303" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1583745013283" />
+    <state width="1398" height="303" key="GridCell.Tab.1.left" timestamp="1583745013282">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1583745013282" />
+    <state width="1398" height="303" key="GridCell.Tab.1.right" timestamp="1583745013283">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1583745013283" />
+    <state x="397" y="282" key="com.intellij.ide.util.TipDialog" timestamp="1583745167912">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="397" y="282" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1583745167912" />
   </component>
 </project>
